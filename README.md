@@ -2,7 +2,6 @@
 
 This project implements a **Reinforcement Learning-based Turtle Graphics Agent** capable of navigating a grid maze and reaching designated goals. The agent uses a value-based learning approach to optimize its policy, visually representing its learning process and decision-making on a graphical interface.
 
----
 
 ## Features
 - **Turtle Graphics Representation**:
@@ -17,7 +16,6 @@ This project implements a **Reinforcement Learning-based Turtle Graphics Agent**
 - **Deterministic Environment**:
   - Predictable outcomes for each action (up, down, left, right), ensuring stable learning dynamics.
 
----
 
 ## How It Works
 1. **Grid Setup**:
@@ -43,7 +41,6 @@ This project implements a **Reinforcement Learning-based Turtle Graphics Agent**
    - State values are displayed on the grid for each episode.
    - The agent's path and decisions are rendered live.
 
----
 
 ## Requirements
 - Python 3.8+
@@ -51,7 +48,6 @@ This project implements a **Reinforcement Learning-based Turtle Graphics Agent**
   - `numpy`
   - Python `turtle` module (standard library)
 
----
 
 ## Future Improvements
 - Support stochastic environments to simulate unpredictable outcomes.
